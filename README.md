@@ -33,6 +33,10 @@
 #### List settings
 adb shell content query --uri content://settings/secure
 adb shell content insert --uri content://settings/secure --bind name:s:user_setup_complete --bind value:s:1
+#### Verify the value
+adb shell content query --uri content://settings/secure|grep name=user_setup_complete|awk -F'value=' '{print $2}'|cut -d, -f1
+
+#####
 adb shell cmd statusbar expand-notifications 
 or
 am mCurrentFocus=Window{51e697dd0 u0 com.android.settings/com.android.settings.Settings}
