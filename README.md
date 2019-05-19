@@ -22,3 +22,16 @@
 ###### Go found a rom on the net
 
 ### AFter flash has been done, device will reboot, here is some pics how it should look a like: 
+
+# Once booted into FACTORY BINARY, see picture below, here is some hidden tips and tricks from myself ;-)
+
+
+
+# Open notification bar: 
+
+# Its not possible to expand notification bar without touchscreen but with this trick it gonna work and you will have access to all settings by press in upper right corner on the setting icon;)
+# List settings
+adb shell content query --uri content://settings/secure
+adb shell cmd statusbar expand-notifications 
+or
+am mCurrentFocus=Window{51e697dd0 u0 com.android.settings/com.android.settings.Settings}
