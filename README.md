@@ -27,11 +27,12 @@
 
 
 
-# Open notification bar: 
+### Open notification bar: 
 
-# Its not possible to expand notification bar without touchscreen but with this trick it gonna work and you will have access to all settings by press in upper right corner on the setting icon;)
-# List settings
+#### Its not possible to expand notification bar without touchscreen but with this trick it gonna work and you will have access to all settings by press in upper right corner on the setting icon;)
+#### List settings
 adb shell content query --uri content://settings/secure
+adb shell content insert --uri content://settings/secure --bind name:s:user_setup_complete --bind value:s:1
 adb shell cmd statusbar expand-notifications 
 or
 am mCurrentFocus=Window{51e697dd0 u0 com.android.settings/com.android.settings.Settings}
