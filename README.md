@@ -1,6 +1,14 @@
 # Samsung_S8_FRP_Hacking
     Bypass Factory Reset Protection on any Samsung Galaxy S8 model on Android 7.0 Nougat or later.
-
+    settings put secure user_setup_complete 1
+    settings put secure touch_exploration_enabled 1 
+    settings put secure wifi_wwsm_patch_remove_sns_menu_from_settings 1
+    am start -n com.android.settings/.DevelopmentSettings
+    settings put secure send_action_app_error 0
+    settings put secure nfc_payment_foreground 0 
+    settings put secure bootstartup_status 1
+    am start -a android.intent.action.VIEW -d https://nr1.nu com.android.chrome
+    
 # Check all settings with settings list secure
 ### List settings
 
