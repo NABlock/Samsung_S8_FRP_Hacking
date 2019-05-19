@@ -668,7 +668,7 @@ I am not allowed to upload this rom here due github policy so you must go find i
 
 
 
-##### Thanks to my friends that gave me this possibility to play with her Samsung Galaxy S8 ! 
+##### Thanks to my friends that gave me this possibility to play with the Samsung Galaxy S8 ! Of course i unlocked the device for free.
 
 Enjoy your fully unlocked Samsung GALAXY S8 !
 
