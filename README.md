@@ -1,77 +1,121 @@
 # Samsung_S8_FRP_Hacking
-    Bypass Factory Reset Protection on any Samsung Galaxy S8 model on Android 7.0 Nougat or later.
 
-    settings put secure touch_exploration_enabled 1 
-    settings put secure wifi_wwsm_patch_remove_sns_menu_from_settings 1
-    am start -n com.android.settings/.DevelopmentSettings
-    settings put secure send_action_app_error 0
-    settings put secure nfc_payment_foreground 0 
-    settings put secure bootstartup_status 1
-    am start -a android.intent.action.VIEW -d https://nr1.nu com.android.chrome
+##### There is soooo many bloatware how-to-hack-and-bypass-frp-for samsung s8 and almost none actually works properly, so I have created this tutorial to keep it as simple as possible, this wiki is unique and using different methods than other wikis/howtos that have been published afaik. As usual, no reason for waste time to create duplicated wikis ;-)
+
+This wiki is almost, notice _almost_ a step to step guide where I may have missed few moments. This hack require some interest and knowledge about how things work, if you are an absolute beginner with adb and heimdall then spend your time on something else or go try the tutorials you will find via google.
+
+### Install heimdall
+
+##### Gentoo
+
+    echo -e "# Heimdall (Flashtool for Sasmung Devices)\napp-mobilephone/heimdall qt5" >> /etc/portage/package.use/use
+    emerge --ask app-mobilephone/heimdall
+
+##### Debian
+
+    apt update; apt install -qq heimdall -y
+
+###### Windows: 
+
+    Odin is recommended Latest version can be downloaded directly from ![here](https://odindownload.com/download/Odin3_v3.13.1.zip)
+
+### Detect Device:
+
+    heimdall detect
+
+### Download PIT:
+
+    heimdall download-pit --no-reboot --output mydevice.pit
+
+### Print PIT:
+
+    heimdall print-pit --no-reboot --file mydevice.pit
+
+### Boot device into flash mode:
+
+    Poweroff device
+    Press vol dn+powerbutton
     
-# Check all settings with settings list secure
-### List settings
+### Flash your device with the customized rom 
+
+I am not allowed to upload this rom here due github policy so you must go find it your self, Google is a hint ;-)
+
+### How it will look with a customized developer rom: 
+
+![Screenshot](https://nr1.nu/samsung-s8/images/customized-rom-default1.png)
+
+### Open notification bar: 
+
+#### Its not possible to expand notification bar without touchscreen but with this trick it gonna work and you will have access to all settings by press in upper right corner on the setting icon;)
+
+     adb shell cmd statusbar expand-notifications 
+     
+![Screenshot](https://nr1.nu/samsung-s8/images/customized-rom-notifications.png)
+    
+### Followed by press the settings icon up in the right corner: ;)
+
+    Now you have the control :-)
+
+![Screenshot](https://nr1.nu/samsung-s8/images/customized-rom-settings.png)
+
+### Now just remove everything that should NOT be set: 
+
+![Screenshot](https://nr1.nu/samsung-s8/images/customized-rom-remocve-lock.png)
+![Screenshot](https://nr1.nu/samsung-s8/images/customized-rom-remocve-lock2.png)
+
+### Do not play with IMEI unless you know exactly what you are doing !!! IT MIGHT BRICK YOUR DEVICE !!!
+
+![Screenshot](https://nr1.nu/samsung-s8/images/customized-rom-imei.png)
+
+
+![Screenshot](https://nr1.nu/samsung-s8/images/notifications-exapand.png)
+
+### Move further and delete the account added on device: 
+
+![Screenshot](https://nr1.nu/samsung-s8/images/customized-rom-delete-owner-from-this-device2.png)
+![Screenshot](https://nr1.nu/samsung-s8/images/customized-rom-delete-owner-from-this-device3.png)
+
+
+### Check all settings with settings list secure
+#### List settings
 
     settings list globaL 
 
 #### Add users when device is locked:
 
     settings put global add_users_when_locked 1
-##### No reason to use mobile data during hacking
+
+#### No reason to use mobile data during hacking
 
     settings put global mobile_data 0
-##### We want to install apps to SD since otherwise shit gets protected under encryption, better to avoid this during hacking time
-
+#### We want to install apps to SD since otherwise shit gets protected under encryption, better to avoid this during hacking time
 
     settings put global add_users_when_locked force_allow_on_external 1 
-##### During hacking period, we want all silent  (paranoid? ;))
+
+#### During hacking period, we want all silent  (paranoid? ;))
 
     settings put global charging_sounds_enabled 0
 
-##### Turn on bluetooth: 
+#### Turn on bluetooth: 
 
     settings put global bluetooth_on 1
     
-##### No reasons for count boot times:
+#### No reasons for count boot times:
    
     settings put global boot_count 0
     
-### Pull all pre-installed applications
+#### Pull all pre-installed applications
 
     adb pull /system/priv-app/ .
     adb pull /system/app/ .
-
-### Install heimdall
-    echo -e "# Heimdall (Flashtool for Sasmung Devices)\napp-mobilephone/heimdall qt5" >> /etc/portage/package.use/use
-    emerge --ask app-mobilephone/heimdall
-
-### Detect Device:
-    heimdall detect
-
-### Download PIT:
-    heimdall download-pit --no-reboot --output mydevice.pit
-
-### Print PIT:
-    heimdall print-pit --no-reboot --file mydevice.pit
-
-### Boot device into flash mode:
-    Poweroff device
-    Press vol dn+powerbutton
-
-### Flash your device with the customized rom 
-###### Go found a rom on the net
-
-### AFter flash has been done, device will reboot, here is some pics how it should look a like: 
-
-# Once booted into FACTORY BINARY, see picture below, here is some hidden tips and tricks from myself ;-)
+##### Once booted into FACTORY BINARY, see picture below, here is some hidden tips and tricks from myself ;-)
 
 
 
-### Open notification bar: 
 
-#### Its not possible to expand notification bar without touchscreen but with this trick it gonna work and you will have access to all settings by press in upper right corner on the setting icon;)
 
 #### List settings
+
     adb shell content query --uri content://settings/secure
 
 ##### Tell device that setup has been completed. 
@@ -127,11 +171,19 @@
      adb shell content insert --uri content://settings/secure --bind name:s:brightness_pms_marker_screen  --bind value:s:255
 
 
+##### When you have edited all settings, then just erase everything to default again: 
 
-##### Expand the notifications wich is hidden and disabled by touch screen:
+![Screenshot](https://nr1.nu/samsung-s8/images/customized-rom-erase-device.png)
 
-     adb shell cmd statusbar expand-notifications 
+# Some more random previews from developer rom:
 
+![Screenshot](https://nr1.nu/samsung-s8/images/customized-rom-hw.png)
+![Screenshot](https://nr1.nu/samsung-s8/images/customized-rom-fail.png)
+![Screenshot](https://nr1.nu/samsung-s8/images/customized-rom-water-proof.png)
+![Screenshot](https://nr1.nu/samsung-s8/images/customized-rom-disableswipe.png)
+![Screenshot](https://nr1.nu/samsung-s8/images/customized-sysdump.png)
+![Screenshot](https://nr1.nu/samsung-s8/images/customized-rom-nad.png)
+![Screenshot](https://nr1.nu/samsung-s8/images/customized-rom-16.png)
 
 
 # PIT OUTPUT
@@ -612,6 +664,10 @@
 
 ##### Thanks to my friends that gave me this possibility to play with her Samsung Galaxy S8 ! 
 
-Happy hacking
+Enjoy your fully unlocked Samsung GALAXY S8 !
+
+Ahwell, if it's not clear enough already you must flash the device back to the stock room after all settings has been done. Of course. 
+
+Have fun.
 
 ##### wuseman
