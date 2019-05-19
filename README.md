@@ -44,6 +44,8 @@ Odin is recommended Latest version can be downloaded directly from ![here](https
 
 I am not allowed to upload this rom here due github policy so you must go find it your self, Google is a hint ;-)
 
+Hint: For ODIN you just need the AP field, leave other fields blank. 
+
 ### How it will look with a customized developer rom: 
 
 ![Screenshot](https://nr1.nu/samsung-s8/images/customized-rom-default1.png)
