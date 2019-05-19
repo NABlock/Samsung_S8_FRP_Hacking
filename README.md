@@ -1,6 +1,38 @@
 # Samsung_S8_FRP_Hacking
     Bypass Factory Reset Protection on any Samsung Galaxy S8 model on Android 7.0 Nougat or later.
 
+# Check all settings with settings list secure
+### List settings
+
+    settings list globaL 
+
+#### Add users when device is locked:
+
+    settings put global add_users_when_locked 1
+##### No reason to use mobile data during hacking
+
+    settings put global mobile_data 0
+##### We want to install apps to SD since otherwise shit gets protected under encryption, better to avoid this during hacking time
+
+
+    settings put global add_users_when_locked force_allow_on_external 1 
+##### During hacking period, we want all silent  (paranoid? ;))
+
+    settings put global charging_sounds_enabled 0
+
+##### Turn on bluetooth: 
+
+    settings put global bluetooth_on 1
+    
+##### No reasons for count boot times:
+   
+    settings put global boot_count 0
+    
+### Pull all pre-installed applications
+
+    adb pull /system/priv-app/ .
+    adb pull /system/app/ .
+
 ### Install heimdall
     echo -e "# Heimdall (Flashtool for Sasmung Devices)\napp-mobilephone/heimdall qt5" >> /etc/portage/package.use/use
     emerge --ask app-mobilephone/heimdall
