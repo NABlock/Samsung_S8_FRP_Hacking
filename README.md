@@ -692,7 +692,7 @@ Ahwell, if it's not clear enough already you must flash the device back to the s
 
 Stock roms can be found here: https://www.sammobile.com/firmwares/
 
-A tip for all who don't wanna pay for better speeds, then check the source code and find the zip file and you will be able to download the roms with full speed without paying a cent. 
+A tip for all who don't wanna pay for better speeds, then check the source code and find the zip file and you will be able to download the roms with full speed without paying a cent. The .zip is there, you have to think, you will find it. When You See It You'll Sh*t Bricks
 
 Have fun.
 
