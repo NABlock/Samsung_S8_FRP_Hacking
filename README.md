@@ -140,8 +140,6 @@ I am not allowed to upload this rom here due github policy so you must go find i
 
     adb shell content insert --uri content://settings/secure --bind name:s:location_providers_allowed --bind value:s:0
 
-    adb shell content insert --uri content://settings/secure --bind name:s:location_previous_mode  --bind value:s:0
-
 ##### Turn on accessibility 
 
     adb shell content insert --uri content://settings/secure --bind name:s:accessibility_enabled  --bind value:s:1
@@ -170,7 +168,7 @@ I am not allowed to upload this rom here due github policy so you must go find i
 
 ##### Disable lockscreen, no reason for keep this 1 while we hacking =D
 
-    adb shell content insert --uri content://settings/secure --bind name:s:lockscreen.disabled  --bind value:s:1
+    adb shell content insert --uri content://settings/secure --bind name:s:lockscreen.disabled  --bind value:s:0
 
 ##### Enable max brightness (Default: 72)
 
