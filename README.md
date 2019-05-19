@@ -666,11 +666,7 @@ I am not allowed to upload this rom here due github policy so you must go find i
      Flash Filename: userdata.img
      FOTA Filename: remained
 
-
-
-##### Thanks to my friends that gave me this possibility to play with the Samsung Galaxy S8 ! Of course i unlocked the device for free.
-
-Enjoy your fully unlocked Samsung GALAXY S8 !
+### Enjoy your fully unlocked Samsung GALAXY S8 !
 
 Ahwell, if it's not clear enough already you must flash the device back to the stock rom after all settings has been done. Of course. 
 
@@ -696,6 +692,10 @@ A tip for all who don't wanna pay for better speeds, then check the source code 
 
 #### When You See It You'll Sh*t Bricks, I Promise ;-)
 
+##### Thanks to my friends that gave me this possibility to play with the Samsung Galaxy S8 ! Of course i unlocked the device for free, you know who you are..
+
+Over And Out. 
+
 Have fun.
 
-##### wuseman
+// wuseman
