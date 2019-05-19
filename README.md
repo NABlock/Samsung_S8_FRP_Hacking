@@ -120,13 +120,14 @@ Hint: For ODIN you just need the AP field, leave other fields blank.
 
     adb pull /system/priv-app/ .
     adb pull /system/app/ .
-##### Once booted into FACTORY BINARY, see picture below, here is some hidden tips and tricks from myself ;-)
 
-
-
-
+##### Once booted into FACTORY BINARY herr is some more tricks that might be helpful:
 
 #### List settings
+
+    adb shell settings secure list
+
+    or
 
     adb shell content query --uri content://settings/secure
 
