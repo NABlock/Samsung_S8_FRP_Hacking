@@ -1,4 +1,4 @@
-# Samsung_S8_FRP_Hacking
+# Samsung S8 FRP Hacking
 
 ##### There is soooo many bloatware how-to-hack-and-bypass-frp-for samsung s8 and almost none actually works properly, so I have created this tutorial to keep it as simple as possible and also for myself as an reminder, this wiki is unique and using different methods than other wikis/howtos that have been published afaik. As usual, no reason for waste time to create duplicated wikis ;-)
 
@@ -100,6 +100,7 @@ Hint: For ODIN you just need the AP field, leave other fields blank.
 #### No reason to use mobile data during hacking
 
     settings put global mobile_data 0
+
 #### We want to install apps to SD since otherwise shit gets protected under encryption, better to avoid this during hacking time
 
     settings put global add_users_when_locked force_allow_on_external 1 
@@ -121,7 +122,7 @@ Hint: For ODIN you just need the AP field, leave other fields blank.
     adb pull /system/priv-app/ .
     adb pull /system/app/ .
 
-##### Once booted into FACTORY BINARY herr is some more tricks that might be helpful:
+##### Once booted into FACTORY BINARY here is some more tricks that might be helpful:
 
 #### List settings
 
