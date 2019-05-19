@@ -692,7 +692,7 @@ A tip for all who don't wanna pay for better speeds, then check the source code 
 
 #### When You See It You'll Sh*t Bricks, I Promise ;-)
 
-##### Thanks to my friends that gave me this possibility to play with the Samsung Galaxy S8 ! Of course i unlocked the device for free, you know who you are..
+##### Thanks to my friends that gave me this opportunity to play with the Samsung Galaxy S8 ! Of course i unlocked the device for free, you know who you are..
 
 Over And Out. 
 
