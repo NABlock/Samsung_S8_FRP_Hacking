@@ -58,7 +58,7 @@ Hint: For ODIN you just need the AP field, leave other fields blank.
 
 ### Open notification bar: 
 
-#### Its not possible to expand notification bar without touchscreen but with this trick it gonna work and you will have access to all settings by press in upper right corner on the setting icon;)
+#### Its not possible to expand notification bar with touchscreen but with this trick it gonna work and you will have access to all settings by press in upper right corner on the setting icon;)
 
      adb shell cmd statusbar expand-notifications 
      
