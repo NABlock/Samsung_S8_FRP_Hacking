@@ -4,6 +4,10 @@
 
 This wiki is almost, notice _almost_ a step to step guide where I may have missed few moments. This hack require some interest and knowledge about how things work, if you are an absolute beginner with adb and heimdall then spend your time on something else or go try the tutorials you will find via google. ;-)
 
+### DON'T GET TRICKED BY ALL APK FILES PEOPLE SAYING YOU SHOULD INSTALL
+
+### Let's do it properly instead, see below.
+
 ### Install heimdall
 
 ##### Gentoo
