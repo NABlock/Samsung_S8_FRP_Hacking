@@ -672,7 +672,27 @@ I am not allowed to upload this rom here due github policy so you must go find i
 
 Enjoy your fully unlocked Samsung GALAXY S8 !
 
-Ahwell, if it's not clear enough already you must flash the device back to the stock room after all settings has been done. Of course. 
+Ahwell, if it's not clear enough already you must flash the device back to the stock rom after all settings has been done. Of course. 
+
+###### Put it all together to get something looking similar to 
+    
+    heimdall flash --pit mydevice.pit 
+    --ABOOT aboot.mbn \
+    --BOOT boot.img \
+    --CACHE cache.img.ext4 \
+    --MODEM NON-HLOS.bin \
+    --RECOVERY recovery.img \
+    --RPM rpm.mbn \
+    --SBL2 sbl2.mbn \
+    --SBL3 sbl3.mbn \
+     --SYSTEM system.img.ext4 \
+-    -TZ tz.mbn
+
+###### For windows users, just load the .tar files into AP, BL and the other fields and just hit "start" and you are fine.
+
+Stock roms can be found here: https://www.sammobile.com/firmwares/
+
+A tip for all who don't wanna pay for better speeds, then check the source code and find the zip file and you will be able to download the roms with full speed without paying a cent. 
 
 Have fun.
 
