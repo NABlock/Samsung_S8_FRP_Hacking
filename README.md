@@ -15,9 +15,9 @@ This wiki is almost, notice _almost_ a step to step guide where I may have misse
 
     apt update; apt install -qq heimdall -y
 
-###### Windows: 
+##### Windows: 
 
-    Odin is recommended Latest version can be downloaded directly from ![here](https://odindownload.com/download/Odin3_v3.13.1.zip)
+Odin is recommended Latest version can be downloaded directly from ![here](https://odindownload.com/download/Odin3_v3.13.1.zip)
 
 ### Detect Device:
 
