@@ -1,6 +1,6 @@
 # Samsung_S8_FRP_Hacking
 
-##### There is soooo many bloatware how-to-hack-and-bypass-frp-for samsung s8 and almost none actually works properly, so I have created this tutorial to keep it as simple as possible, this wiki is unique and using different methods than other wikis/howtos that have been published afaik. As usual, no reason for waste time to create duplicated wikis ;-)
+##### There is soooo many bloatware how-to-hack-and-bypass-frp-for samsung s8 and almost none actually works properly, so I have created this tutorial to keep it as simple as possible and also for myself as an reminder, this wiki is unique and using different methods than other wikis/howtos that have been published afaik. As usual, no reason for waste time to create duplicated wikis ;-)
 
 This wiki is almost, notice _almost_ a step to step guide where I may have missed few moments. This hack require some interest and knowledge about how things work, if you are an absolute beginner with adb and heimdall then spend your time on something else or go try the tutorials you will find via google. ;-)
 
