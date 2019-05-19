@@ -44,6 +44,12 @@ I am not allowed to upload this rom here due github policy so you must go find i
 
 ![Screenshot](https://nr1.nu/samsung-s8/images/customized-rom-default1.png)
 
+### Of course you will have access to adb shell via the developer rom:
+
+![Screenshot](https://nr1.nu/samsung-s8/iumages/aaaaa.png)
+
+## So now, just do as below. 
+
 ### Open notification bar: 
 
 #### Its not possible to expand notification bar without touchscreen but with this trick it gonna work and you will have access to all settings by press in upper right corner on the setting icon;)
