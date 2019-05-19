@@ -46,7 +46,7 @@ I am not allowed to upload this rom here due github policy so you must go find i
 
 ### Of course you will have access to adb shell via the developer rom:
 
-![Screenshot](https://nr1.nu/samsung-s8/iumages/aaaaa.png)
+![Screenshot](https://nr1.nu/samsung-s8/images/aaaaa.png)
 
 ## So now, just do as below. 
 
