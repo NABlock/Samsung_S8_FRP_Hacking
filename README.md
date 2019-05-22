@@ -58,14 +58,12 @@ Hint: For ODIN you just need the AP field, leave other fields blank.
 
 ### Open notification bar: 
 
-#### Its not possible to expand notification bar with touchscreen but with this trick it gonna work and you will have access to all settings by press in upper right corner on the setting icon;)
+#### Its not possible to expand notification bar with touchscreen on the latest firmware, this can be easily bypassed by:
 
      adb shell cmd statusbar expand-notifications 
      
 ![Screenshot](https://nr1.nu/samsung-s8/images/customized-rom-notifications.png)
     
-### Followed by press the settings icon up in the right corner: ;)
-
     Now you have the control :-)
 
 ![Screenshot](https://nr1.nu/samsung-s8/images/customized-rom-settings.png)
