@@ -48,11 +48,11 @@ Hint: For ODIN you just need the AP field, leave other fields blank.
 
 ### How it will look with a customized developer rom: 
 
-![Screenshot](https://nr1.nu/samsung-s8/images/customized-rom-default1.png)
+![Screenshot](https://nr1.nu//archive/samsung-s8/images/customized-rom-default1.png)
 
 ### Of course you will have access to adb shell via the developer rom:
 
-![Screenshot](https://nr1.nu/samsung-s8/images/aaaaa.png)
+![Screenshot](https://nr1.nu//archive/samsung-s8/images/aaaaa.png)
 
 ## So now, just do as below. 
 
@@ -62,28 +62,28 @@ Hint: For ODIN you just need the AP field, leave other fields blank.
 
      adb shell cmd statusbar expand-notifications 
      
-![Screenshot](https://nr1.nu/samsung-s8/images/customized-rom-notifications.png)
+![Screenshot](https://nr1.nu//archive/samsung-s8/images/customized-rom-notifications.png)
     
     Now you have the control :-)
 
-![Screenshot](https://nr1.nu/samsung-s8/images/customized-rom-settings.png)
+![Screenshot](https://nr1.nu//archive/samsung-s8/images/customized-rom-settings.png)
 
 ### Now just remove everything that should NOT be set: 
 
-![Screenshot](https://nr1.nu/samsung-s8/images/customized-rom-remocve-lock.png)
-![Screenshot](https://nr1.nu/samsung-s8/images/customized-rom-remocve-lock2.png)
+![Screenshot](https://nr1.nu//archive/samsung-s8/images/customized-rom-remocve-lock.png)
+![Screenshot](https://nr1.nu//archive/samsung-s8/images/customized-rom-remocve-lock2.png)
 
 ### Do not play with IMEI unless you know exactly what you are doing !!! IT MIGHT BRICK YOUR DEVICE !!!
 
-![Screenshot](https://nr1.nu/samsung-s8/images/customized-rom-imei.png)
+![Screenshot](https://nr1.nu//archive/samsung-s8/images/customized-rom-imei.png)
 
 
-![Screenshot](https://nr1.nu/samsung-s8/images/notifications-exapand.png)
+![Screenshot](https://nr1.nu//archive/samsung-s8/images/notifications-exapand.png)
 
 ### Move further and delete the account added on device: 
 
-![Screenshot](https://nr1.nu/samsung-s8/images/customized-rom-delete-owner-from-this-device2.png)
-![Screenshot](https://nr1.nu/samsung-s8/images/customized-rom-delete-owner-from-this-device3.png)
+![Screenshot](https://nr1.nu//archive/samsung-s8/images/customized-rom-delete-owner-from-this-device2.png)
+![Screenshot](https://nr1.nu//archive/samsung-s8/images/customized-rom-delete-owner-from-this-device3.png)
 
 
 ### Check all settings with settings list secure
@@ -187,13 +187,13 @@ Hint: For ODIN you just need the AP field, leave other fields blank.
 
 # Some more random previews from developer rom:
 
-![Screenshot](https://nr1.nu/samsung-s8/images/customized-rom-hw.png)
-![Screenshot](https://nr1.nu/samsung-s8/images/customized-rom-fail.png)
-![Screenshot](https://nr1.nu/samsung-s8/images/customized-rom-water-proof.png)
-![Screenshot](https://nr1.nu/samsung-s8/images/customized-rom-disableswipe.png)
-![Screenshot](https://nr1.nu/samsung-s8/images/customized-sysdump.png)
-![Screenshot](https://nr1.nu/samsung-s8/images/customized-rom-nad.png)
-![Screenshot](https://nr1.nu/samsung-s8/images/customized-rom-16.png)
+![Screenshot](https://nr1.nu//archive/samsung-s8/images/customized-rom-hw.png)
+![Screenshot](https://nr1.nu//archive/samsung-s8/images/customized-rom-fail.png)
+![Screenshot](https://nr1.nu//archive/samsung-s8/images/customized-rom-water-proof.png)
+![Screenshot](https://nr1.nu//archive/samsung-s8/images/customized-rom-disableswipe.png)
+![Screenshot](https://nr1.nu//archive/samsung-s8/images/customized-sysdump.png)
+![Screenshot](https://nr1.nu//archive/samsung-s8/images/customized-rom-nad.png)
+![Screenshot](https://nr1.nu//archive/samsung-s8/images/customized-rom-16.png)
 
 
 # PIT OUTPUT
